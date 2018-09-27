@@ -1,0 +1,320 @@
+#top {
+
+      font-family: 'Cinzel Decorative', cursive;
+      background-image: image();
+}
+
+.p1 {
+    font-family: 'Courgette', cursive;
+}
+
+body {
+      background-color: gray;
+}
+
+.navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      background-color: #f1f1f1;
+      position: sticky;
+      top: 0;
+      height: 30px;
+
+
+}
+
+.navbar ul li {
+  display: inline;
+  position: center;
+
+}
+
+
+
+.navbar li a {
+
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+      border-radius: 8px 8px 0 0;
+}
+
+.navbar li a:hover {
+            background-color: #555;
+            color: white;
+}
+
+
+.containerA p {
+              font-size: 20px;
+              margin-left: 320px;
+              margin-right: 320px;
+              font-family: "Bree Serif";
+              letter-spacing: 3px;
+              line-height: 30px;
+              word-spacing: 5px;
+}
+
+.containerA {
+            margin: 20px;
+            border-style: solid;
+            padding: 10px;
+            border-color: cyan;
+}
+
+.containerE {
+
+            margin: 20px;
+            border-style: solid;
+            padding: 20px;
+            border-color: cyan;
+            text-align: center;
+            list-style: disc;
+            background-image: url('../img/education3.jpg');
+
+}
+
+
+
+.containerE p {
+              padding: 10 220 10 200px;
+              margin: 10 190 10 200px;
+              text-decoration-style: solid;
+              color: black;
+              font-size: 20px;
+              text-align: left;
+
+
+}
+
+.containerE ul li {
+                  display: block;
+                  text-align: left;
+                  font-family: "Bree Serif"
+
+
+
+
+}
+
+.subjectbox {
+            display: block;
+            margin-left: 93px;
+            margin-right: 105px;
+            padding-left: 5px;
+            padding-right: 5px;
+            text-align: left;
+}
+
+
+
+.containerE ul li {
+                  list-style: none;
+}
+
+
+.educontent {
+    margin-left: 571px;
+    margin-right: 204px;
+    border: auto;
+}
+.containerW {
+            margin: 20px;
+            border-style: solid;
+            padding: 20px;
+            border-color: cyan;
+            text-align: left;
+
+}
+
+.containerW p {
+              font-size: 20px;
+}
+
+.mass {
+      margin-left: 350px;
+      margin-right: 350px;
+}
+
+.edu {
+    margin-left: 56px;
+    margin-right: 80px;
+}
+
+.containerS {
+            margin: 20px;
+            border-style: solid;
+            padding: 20px;
+            border-color: cyan;
+            text-align: center;
+            list-style-type: none;
+            list-style: disc;
+
+}
+
+.containerS ul li {
+                  font-size: 25px;
+                  font-family: "Courgette";
+}
+
+.containerC  {
+            margin: 20px;
+            border-style: solid;
+            padding: 20px;
+            border-color: cyan;
+            text-align: center;
+            list-style: none;
+            list-style-type: none;
+            font-size: 18px;
+
+}
+
+.containerC p {
+              text-decoration: underline;
+              font-size: 20px;
+              font-family: "Bree Serif";
+}
+
+.containerC dl {
+                font-size: 20px;
+                font-family: "Bree Serif"
+}
+
+h1 {
+    font-size: 40px;
+
+}
+
+h2 {
+    font-family: Lobster;
+    text-decoration: underline;
+    color: #172238c4;
+    text-shadow: 2px 2px 8px #2eb3c2cf;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+/* The navigation bar */
+.navbar {
+        overflow: hidden;
+        background-color: crimson;
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+          float: left;
+          display: block;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+                background: #ddd;
+                color: black;
+}
+
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+@media only screen and (min-width: 100px) {
+    /* For mobile phones: */
+                                          [class*="col-"] {
+                                                          width: 100%;
+                                          }
+
+                                          .containerA p {
+                                                        font-size: 15px;
+                                                        margin-left: 37px;
+                                                        margin-right: 37px;
+                                                        font-family: "Bree Serif";
+                                                        letter-spacing: 4px;
+                                                        line-height: 30px;
+                                          }
+
+                                          .containerE {
+                                                      margin: 1 100 1 100px;
+                                                      border-style: solid;
+                                                      padding: 20px;
+                                                      border-color: cyan;
+                                                      text-align: center;
+                                                      list-style: disc;
+                                                      background-image: url(../img/education3.jpg);
+                                                      style="height: auto; width: auto;"
+                                          }
+
+                                          .containerE p {
+                                                        padding: 10 50 10 50px;
+                                                        margin: 10 50 10 50px;
+                                                        text-decoration-style: solid;
+                                                        color: black;
+                                                        font-size: 20px;
+                                                        text-align: left;
+
+
+                                          }
+
+                                          .educontent {
+                                                      margin-left: 42px;
+                                                      margin-right: -68px;
+                                                      border: auto;
+                                          }
+                                          .edu {
+                                                margin-left: 56px;
+                                                margin-right: 80px;
+                                          }
+
+                                          .subjectbox {
+                                                      display: block;
+                                                      margin-left: 93px;
+                                                      margin-right: 105px;
+                                                      padding-left: 5px;
+                                                      padding-right: 5px;
+                                                      text-align: left;
+                                          }
+
+                                          .mass {
+                                                margin-left: 55px;
+                                                margin-right: 1px;
+                                          }
+                                          .containerW {
+                                                      margin: 1px;
+                                                      border-style: solid;
+                                                      padding: 1px;
+                                                      border-color: cyan;
+                                                      text-align: left;
+                                          }
+
+                                          .containerS {
+                                                      margin: 20px;
+                                                      border-style: solid;
+                                                      padding: 20px;
+                                                      border-color: cyan;
+                                                      text-align: center;
+                                                      list-style-type: none;
+                                                      list-style: disc;
+                                          }
+
+                                          .containerC {
+                                                      margin: 20px;
+                                                      border-style: solid;
+                                                      padding: 20px;
+                                                      border-color: cyan;
+                                                      text-align: center;
+                                                      list-style: none;
+                                                      list-style-type: none;
+                                                      font-size: 18px;
+                                          }
+}
