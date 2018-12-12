@@ -1025,6 +1025,7 @@ section.bl-expand .bl-icon-close {
    font-size: initial;
    color: #fff;
    font-weight: bold;
+   font-size: inherit;
 }
 
 
