@@ -302,7 +302,9 @@ div.bl-panel-items > div > div h3 {
 }
 
 div.bl-panel-items > div > div p {
-	font-size: 100%;
+  font-size: 100%;
+  margin-left: 28%;
+  margin-right: 10%;
 }
 
 div.bl-panel-items > div > div img {
