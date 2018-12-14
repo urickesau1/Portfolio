@@ -273,6 +273,8 @@ div.bl-panel-items > div > div {
 .bl-content > ul li a img {
 	display: block;
 	max-width: 100%;
+	height: auto;
+	width: auto;
 }
 
 /* Panel Items */
@@ -302,14 +304,14 @@ div.bl-panel-items > div > div h3 {
 }
 
 div.bl-panel-items > div > div p {
-  font-size: 100%;
-  margin-left: 28%;
-  margin-right: 10%;
+	font-size: 100%;
+	margin-right: 10%;
+	margin-left: 0%;
 }
 
 div.bl-panel-items > div > div img {
 	float: left;
-	margin: 0px 30px 20px 0px;
+	margin: 0px 73px 20px 0px;
 	max-width: 100%;
 }
 
@@ -334,7 +336,7 @@ div.bl-panel-items > div {
 div.bl-panel-items nav {
 	position: absolute;
 	z-index: 9999;
-	width: 216px;
+	width: 237px;
 	left: 50%;
 	top: 0px;
 	margin-left: -108px;
@@ -362,7 +364,7 @@ div.bl-panel-items nav span.bl-next-work {
 
 div.bl-panel-items.bl-panel-items-show nav {
 	opacity: 1;
-	top: -70px;
+	top: -10%;
 }
 
 div.bl-panel-items > div.bl-show-work {
@@ -442,6 +444,7 @@ section.bl-expand .bl-box {
 	-webkit-transition: opacity 0s linear;
 	-moz-transition: opacity 0s linear;
 	transition: opacity 0s linear;
+	height: -moz-fit-content;
 }
 
 .bl-box h2 {
@@ -529,6 +532,7 @@ section.bl-expand .bl-icon-close {
   #About {
       text-align: center;
       font-size: large;
+      line-height: 30px;
   }
   
   #About p {
@@ -536,66 +540,20 @@ section.bl-expand .bl-icon-close {
       
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     /*Skills and Education*/
   .skills-container {
     position: relative;
     width: 100%;
-    height: 87vh;
-    background-color: dodgerblue;
+    height: auto;
   }
   .modal-container {
     position: absolute;
-    top: 50%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
-    height: 300px;
-    display: flex;
+    height: 455px;
+    display: -webkit-flex;
   }
   .img {
     position: relative;
@@ -697,6 +655,7 @@ section.bl-expand .bl-icon-close {
     width: 90%;
     margin: 0 auto;
     max-width: 120rem;
+    padding-top: 22%;
   }
   
   .cols{
@@ -722,6 +681,7 @@ section.bl-expand .bl-icon-close {
     transform-style: preserve-3d;
     -webkit-perspective: 1000px;
     perspective: 1000px;
+    padding-top: 70px;
   }
   
   .front,
@@ -861,6 +821,22 @@ section.bl-expand .bl-icon-close {
   .inner a:hover {
       color: blue;
   }
+
+.text {
+	display: inherit;
+}
+
+.text p {
+	width: 40%;
+	padding-top: 9%;
+}
+
+.text ul li {
+}
+
+.text ul {
+	margin-left: 10%;
+}
   
   @media screen and (max-width: 64rem){
     .column{
@@ -880,34 +856,6 @@ section.bl-expand .bl-icon-close {
       margin: 0 0 2rem 0;
     }
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
  /*Contact details styling section*/
 
@@ -1027,7 +975,51 @@ section.bl-expand .bl-icon-close {
    font-size: initial;
    color: #fff;
    font-weight: bold;
-   font-size: inherit;
+}
+
+@media screen and (max-width: 986px) {
+  .modal-container {
+
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 455px;
+	display: grid;
+	
+	
+
+}
+
+
+
+
+.img .title {
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5vh;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    box-sizing: border-box;
+    transition: 0.75s all;
+    text-align: center;
+    opacity: 0;
+    font-weight: bold;
+    font-size: 100%;
+
+}
+
+.education-wrapper {
+
+  width: 90%;
+  margin: 0 auto;
+  max-width: 120rem;
+  padding-top: 60%;
+
+}
 }
 
 
